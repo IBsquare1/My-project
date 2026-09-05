@@ -8,7 +8,7 @@
 body {
     background: #080d1a;
     color: white;
-    min-height: 170vh;
+    min-height: 142vh;
 }
 
 
@@ -434,14 +434,112 @@ section {
 
 .trusted {
   background-color: #0D47A1;
-  height: 20rem;
+  height: 15rem;
   padding-top: 2rem;
 }
 
 h5 {
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 .containers {
   display: flex;
+  gap: 1rem;
+  font-size: 0.05rem;
+  margin: 1rem 2rem;
 }
+
+.okafor {
+  border: 0.05rem solid lightblue;
+  padding: 0.5rem 0.5rem;
+  background-color: grey;
+  border-radius: 5px;
+  line-height: 1.4;
+  }
+
+.amara {
+  margin-top: 1rem;
+  }
+
+.designer {
+  font-weight: lighter;
+  font-size: 0.04rem;
+  }
+
+
+.mensah {
+  border: 0.05rem solid lightblue;
+  padding: 0.5rem 0.5rem;
+  background-color: grey;
+  border-radius: 5px;
+  line-height: 1.4;
+  }
+
+.daniel {
+  margin-top: 1rem;
+  }
+
+.founder {
+  font-weight: lighter;
+  font-size: 0.04rem;
+  }
+
+
+
+
+
+
+
+
+
+.eze {
+  border: 0.05rem solid lightblue;
+  padding: 0.5rem 0.5rem;
+  background-color: grey;
+  border-radius: 5px;
+  line-height: 1.4;
+  }
+
+.chioma{
+  margin-top: 1rem;
+  }
+
+.msc {
+  font-weight: lighter;
+  font-size: 0.04rem;
+  }
+
+
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 0.05rem;
+  margin: 2rem 2rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 0.01rem solid blanchedalmond;
+  }
+
+h6 {
+  font-weight:  bolder 500px;
+  margin-bottom: 0.5rem;
+
+  }
+
+ .sect {
+   font-size: 0.03rem;
+   gap: 1rem;
+   }
+.copy {
+  font-size: 0.5rem;
+  text-align: center;
+
+  }
+
+
+
+
+
+
