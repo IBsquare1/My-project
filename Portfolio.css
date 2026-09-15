@@ -1,0 +1,524 @@
+* {
+  box-sizng: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+ } 
+
+body{
+  color: white;
+  background-color: green;
+  height: 150vh;
+  }
+
+.flex{
+  display: flex;
+  position: sticky;
+  top: 0;
+  right: 0;
+  left: 0;
+  flex-direction: row;
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  flex-wrap: nowrap;
+  font-size: 0.8rem;
+  background-color: hwb(208 6% 24%);
+  padding: 0.5rem 2rem;
+  
+  
+  }
+
+.nav{
+  gap: 10px;
+  }
+
+.home{
+  text-decoration: none;
+  font-size: 0.5rem;
+  margin-right: 0.5rem;
+  color: white;
+  }
+
+.about{
+  text-decoration: none;
+  font-size: 0.5rem;
+  margin-right: 0.5rem;
+  color: white;
+  }
+
+.skills{
+  text-decoration: none;
+  font-size: 0.5rem;
+  margin-right: 0.5rem;
+  color: white;
+  }
+
+.projects{
+  text-decoration: none;
+  font-size: 0.5rem;
+  color: white;
+  }
+
+
+.hello{
+  background-color: linear-gradient(to right hwb(240 2% 28%));
+  font-family: Arial, sans-serif;
+  background-image: url("img_20260912-150512~2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  color: white;
+  }
+
+.hello::before{
+  backdrop-filter: blur(200px);
+  background-color: linear-gradient(to left hwb(235 5% 90%));
+  z-index: -1;
+  }
+
+h1{
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bolder;
+  }
+
+  
+.beginner{
+  font-size: 0.5rem;
+  text-align: center;
+  margin-top: 0.8rem;
+
+  }
+
+
+button {
+  position: inline-block;
+  transition: transform 0.5sec ease;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 9.5rem;
+  font-size: 0.5rem;
+  padding: 0.5rem 0.5rem;
+  border: none;
+  }
+
+button:hover {
+  transform: translateY(-3px);
+  background-color: hwb(0 61% 20%);
+  text-decoration: none;
+  }
+
+.view{
+  text-decoration: none;
+  text-align: center;  
+}
+
+
+
+#about {   
+  box-sizing: border-box;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  background-color: white;
+  padding-bottom: 2rem;
+  padding-right: 1rem; 
+  }  
+
+.img{
+  width: 45%;
+  height: auto;
+  margin-top: 2rem;
+  padding-left: 1rem;
+ }
+
+img{
+  width: 100%;
+  display: block;
+  }
+
+.is{
+  box-sizing: border-box;
+  width: 55%;
+  margin-top: 2rem;
+  margin-left: 0;
+  }
+
+h3 {
+  text-align: center;
+  font-weight: bolder;
+  color: blue;
+  }
+
+.name{
+  font-size: 0.6rem;
+  margin-top: 0.5rem;
+  line-height: 1.6;
+  padding-right: 1rem;
+  }
+
+
+#skills{
+  background-color: hwb(208 6% 24%);
+  align-items: center; 
+  }
+
+h4{
+  text-align: center;
+  color: blue; 
+  padding-top: 1rem;
+  
+  }
+
+.what{
+  text-align: center;
+  }
+
+
+.ctns{
+  display: flex;
+  min-width: 0;
+  flex-basis: 0;
+  flex: 1;
+  flex-direction: row;
+  font-size: 0.6rem;
+  padding: 1rem 1rem;
+  gap: 0.3rem;
+  }
+
+.html{
+  border: 0.1rem solid blue;
+  border-radius: 5px;
+  background-color: hwb(240 15% 50%);
+  padding-bottom: 1rem;
+  }
+
+.ml{
+  text-align:center;
+  padding-top: 1rem;
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+  }
+.create{
+  text-align: center;
+  font-size: 0.5rem;
+  flex-wrap: nowrap;
+  padding: 0.2rem;
+  }
+
+
+
+
+.css{
+  border: 0.1rem solid blue;
+  border-radius: 5px;
+  background-color: hwb(240 15% 50%);
+  padding-bottom: 1rem;
+  }
+
+.ss{
+  text-align:center;
+  padding-top: 1rem;
+  font-weight: bolder;
+  margin-bottom: 0.5rem;
+}
+
+.styling{
+  text-align: center;
+  font-size: 0.5rem;
+  flex-wrap: nowrap;
+  padding: 0.2rem;
+  }
+
+
+.rsp{
+  border: 0.1rem solid blue;
+  border-radius: 5px;
+  background-color: hwb(240 15% 50%);
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+  padding-bottom: 1rem;
+  }
+
+.ve{
+  text-align:center;
+  padding-top: 1rem;
+  flex-wrap: no wrap;
+  font-weight: bolder;
+  margin-bottom: 0.2rem;
+  
+  }
+
+.making{
+  text-align: center;
+  font-size: 0.5rem;
+  flex-wrap: nowrap;
+  }
+
+
+
+.jvs{
+  border: 0.1rem solid blue;
+  border-radius: 5px;
+  background-color: hwb(240 15% 50%);
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+  padding-bottom: 1rem;
+  }
+
+.pt{
+  text-align:center;
+  padding-top: 1rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  }
+
+.adding{
+  text-align: center;
+  font-size: 0.5rem;
+  flex-wrap: nowrap;
+  }
+
+
+#projects{
+  background-color: white;
+  color: black;
+  }
+
+h5{
+  text-align: center;
+  color: blue;
+  padding-top: 1rem;
+  }
+
+.my{
+  text-align: center;
+  
+  }
+
+.wrks{
+  display: flex;
+  padding-top: 1rem;
+  flex: 1;
+  min-width: 0;
+  flex-basis: 0;
+  padding: 1rem 1rem;
+  gap: 0.3rem;
+  
+}
+
+.landing{
+  border: 0.1rem solid silver;
+  border-radius: 5px;
+  background-color: silver;
+  padding: 0.2rem 0.2rem;
+
+  }
+
+.page{
+  text-align: center;
+  padding-top: 1rem;
+  flex-wrap: nowrap;
+  margin-bottom: 0.3rem;
+  font-size: 0.5rem;
+  font-weight: bolder;
+  }
+
+.modern{
+  font-size: 0.3rem;
+  flex-wrap: nowrap;
+  }
+
+.contact{
+  border: 0.1rem solid silver;
+  border-radius: 5px;
+  background-color: silver;
+  padding: 0.2rem 0.2rem;
+  }
+
+.form{
+  text-align: center;
+  padding-top: 1rem;
+  flex-wrap: nowrap;
+  margin-bottom: 0.3rem;
+  font-size: 0.5rem;
+  font-weight: bolder; 
+}
+
+.simple{
+  font-size: 0.3rem;
+  flex-wrap: nowrap;
+  }
+
+
+
+.video{
+  border: 0.1rem solid silver;
+  border-radius: 5px;
+  background-color: silver;
+  padding: 0.2rem 0.2rem;
+  }
+
+.website{
+  text-align: center;
+  padding-top: 1rem;
+  flex-wrap: nowrap;
+  margin-bottom: 0.3rem;
+  font-size: 0.5rem;
+  font-weight: bolder; 
+}
+
+.local{
+  font-size: 0.3rem;
+  flex-wrap: nowrap;
+  }
+
+
+
+.portfolio{
+  border: 0.1rem solid silver;
+  border-radius: 5px;
+  background-color: silver;
+  padding: 0.2rem 0.2rem;
+  }
+
+.web{
+  text-align: center;
+  padding-top: 1rem;
+  flex-wrap: nowrap;
+  margin-bottom: 0.3rem;
+  font-size: 0.5rem;
+  font-weight: bolder;
+  }
+
+.personal{
+  font-size: 0.3rem;
+  flex-wrap: nowrap;
+  }
+
+
+
+
+
+footer{
+  display: flex;
+  padding: 1rem 1rem;
+  }
+
+.get{
+  font-size: 0.5rem;
+  margin-right: 1.7rem;
+  }
+
+h6{
+  color: blue;
+  font-weight: bolder;
+  font-size: 0.6rem;
+  }
+
+.cnt{
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 0.3rem;
+  }
+
+.have{
+  flex-wrap: nowrap;
+  }
+
+.feel{
+  margin-bottom: 0.5rem;
+  }
+
+.eml{
+  flex-wrap: nowrap;
+  margin-bottom: 0.05rem;
+  }
+
+.whats{
+  margin-bottom: 0.5rem;
+  }
+
+.location{
+  margin-bottom: 0.5rem;
+  }
+
+.form{
+  }
+
+fieldset{
+  border-radius: 5px;
+  margin-right: 1rem;
+  }
+
+.firstname{
+  margin-top: 0.5rem;
+  margin-bottom: 0.2rem;
+  border-radius: 3px;
+  border-style: none;
+  padding-left: 0.5rem;
+  font-size: 0.5rem;
+  padding-bottom: 0.2rem;
+  padding-top: 0.2rem;
+  margin-left: 0.3rem;
+  width: 4rem;
+  
+  }
+
+.lastname{
+  margin-bottom: 0.2rem;
+  border-radius: 3px;
+  border-style: none;
+  padding-left: 0.5rem;
+  font-size: 0.5rem;
+  padding-bottom: 0.2rem;
+  padding-top: 0.2rem;
+  margin-left: 0.2rem;
+  margin-right: 0.3rem;
+  width: 5.1rem;
+  }
+
+.email{
+  margin-bottom: 0.2rem;
+  border-radius: 3px;
+  border-style: none;
+  padding-left: 0.5rem;
+  font-size: 0.5rem;
+  padding-bottom: 0.2rem;
+  padding-top: 0.2rem;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  width: 10rem;
+  }
+
+.message{
+  margin-bottom: 0.5rem;
+  border-radius: 3px;
+  border-style: none;
+  padding-left: 0.5rem;
+  padding-bottom: 1rem;
+  font-size: 0.5rem;
+  padding-top: 0.2rem;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+  width: 10rem;
+  }
+
+.send{
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
+  align-items: center;
+  width: 10.5rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  }
