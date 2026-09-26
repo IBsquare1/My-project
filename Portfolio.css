@@ -1,5 +1,5 @@
 * {
-  box-sizng: border-box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -8,7 +8,7 @@
 body{
   color: white;
   background-color: green;
-  height: 127vh;
+  height: 124vh;
   }
 
 .flex{
@@ -66,7 +66,7 @@ body{
 #home{
   background-color: linear-gradient(to right hwb(240 2% 28%));
   font-family: Arial, sans-serif;
-  background-image: url("img_20260912-150512~2.jpg");
+  background-image: url("https://res.cloudinary.com/alygwey9/image/upload/f_auto,q_auto/img_20260912-150512_2");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -532,7 +532,8 @@ hr{
 .copyright{
   font-size: 0.5rem;
   padding-top: 0.5rem;
+  padding-bottom: 0px;
   text-align: center;
   background-color: hwb(207 8% 75%);
-  height: 2.3%;
+  height: 1.5rem;
   }
